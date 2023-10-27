@@ -1,0 +1,54 @@
+.image-body{
+    width: 100%;
+    min-height: 570px;
+    background: url('https://www.reporterhoje.com.br/wp-content/uploads/2020/05/MASCARAS-750x350.jpeg');
+    background-size:cover;
+}
+
+.produtos-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+    padding: 25px;
+    width: 100%;
+    color: rgb(220, 20, 60);
+}
+.produtos-area{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+    margin: 20px;
+}
+.produto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 350px;
+    min-height: 350px;
+    align-items: center;
+    margin: 20px;
+    color: black;
+}
+.image-produto{
+    width: 300px;
+    height: 350px;
+    margin-bottom: 15px;
+}
+.produto article{
+    margin: 25px;
+    text-align: center;
+}
+.button-produto{
+    background-color: rgb(220, 20, 60);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 10px;
+    width: 250px;
+    height: 40px;
+}
