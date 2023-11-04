@@ -1,54 +1,156 @@
-.image-body{
-    width: 100%;
-    min-height: 570px;
-    background: url('https://www.reporterhoje.com.br/wp-content/uploads/2020/05/MASCARAS-750x350.jpeg');
-    background-size:cover;
+:root {
+	--primary-color: #00629a;
 }
 
-.produtos-body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 30px;
-    padding: 25px;
-    width: 100%;
-    color: rgb(220, 20, 60);
+.image-body {
+	width: 100%;
+	min-height: 570px;
+	background: url("https://www.reporterhoje.com.br/wp-content/uploads/2020/05/MASCARAS-750x350.jpeg");
+	background-size: cover;
+	border-bottom: var(--primary-color) solid 5px;
 }
-.produtos-area{
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    padding: 20px;
-    margin: 20px;
+
+.produtos-body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin-top: 30px;
+	width: 100%;
+	color: var(--primary-color);
 }
-.produto{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    max-width: 350px;
-    min-height: 350px;
-    align-items: center;
-    margin: 20px;
-    color: black;
+.produtos-area {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	padding: 20px;
+	margin-bottom: 20px;
 }
-.image-produto{
-    width: 300px;
-    height: 350px;
-    margin-bottom: 15px;
+.produto {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	max-width: 350px;
+	min-height: 350px;
+	align-items: center;
+	margin: 20px;
+	color: black;
 }
-.produto article{
-    margin: 25px;
-    text-align: center;
+.image-produto {
+	width: 300px;
+	height: 350px;
+	margin-bottom: 15px;
 }
-.button-produto{
-    background-color: rgb(220, 20, 60);
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: none;
-    border-radius: 10px;
-    width: 250px;
-    height: 40px;
+.produto article {
+	margin: 25px;
+	text-align: center;
+}
+.button-produto {
+	background-color: var(--primary-color);
+	color: white;
+	font-weight: bold;
+	display: flex;
+	font-size: 14px;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	border: none;
+	border-radius: 10px;
+	width: 250px;
+	height: 40px;
+	gap: 10px;
+	cursor: pointer;
+}
+.button-produto:hover {
+	color: var(--primary-color);
+	background-color: white;
+	border: var(--primary-color) solid 2px;
+}
+.button-todos {
+	padding: 15px;
+	background-color: white;
+	color: var(--primary-color);
+	border: solid var(--primary-color);
+	border-radius: 10px;
+	width: 280px;
+	height: 60px;
+	gap: 10px;
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+.button-todos:hover {
+	color: white;
+	background-color: var(--primary-color);
+	cursor: pointer;
+}
+
+.formulario {
+	display: flex;
+	align-items: center;
+	background-color: #002b48;
+	flex-direction: column;
+	flex-wrap: wrap;
+	width: 100%;
+	height: max-content;
+	min-height: 300px;
+	padding: 50px;
+	font-size: 22px;
+	font-weight: bold;
+	border-bottom: var(--primary-color) solid 3px;
+	border-top: var(--primary-color) solid 3px;
+}
+.infos-form {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 850px;
+	max-height: 650px;
+	gap: 30px;
+	color: white;
+}
+.infos-form input,
+select {
+	width: 400px;
+	height: 25px;
+	padding: 2px 7px;
+	border: solid 2px white;
+	border-radius: 5px;
+	outline: none;
+}
+.mensagem {
+	width: 600px;
+	height: 100px;
+	padding: 3px 7px;
+}
+.buttons-actions {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+	margin-top: 25px;
+	width: 600px;
+	height: 40px;
+}
+.buttons-actions button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 15px;
+	background-color: white;
+	color: var(--primary-color);
+	border: solid var(--primary-color);
+	border-radius: 10px;
+	width: 280px;
+	height: 60px;
+	gap: 10px;
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.buttons-actions button:hover {
+	color: white;
+	background-color: var(--primary-color);
+	cursor: pointer;
 }

@@ -1,47 +1,174 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./header.css">
-    <link rel="stylesheet" href="./body.css">
-    <title>SL Proteção Respiratória</title>
-</head>
-<body>
-    <header class="header-page">
-        <div class="title-header">SLPR</div>
-        <div class="spans-header">
-            <span><a href="http://">Quem Somos</a></span>
-            <span><a href="http://">Nossos Produtos</a></span>
-            <span><a href="http://">Blog</a></span>
-            <span><a href="http://">Contato</a></span>
-        </div>
-    </header> 
-    <div class="image-body"></div>
-    <div class="produtos-body">
-        <h1>Conheça Nossos Produtos</h1>
-        <div class="produtos-area">
-            <div class="produto">
-                <img src="https://tayco.com.br/app/uploads/2021/09/produto-linha-t.png" alt="linhaT" class="image-produto">
-                <h2 class="nome-produto">Linha T</h2>
-                <article>A tradicional Linha T tem as melhores avaliações e recomendações da nossa empresa.</article>
-                <input type="button" value="Conheça Melhor ->" class="button-produto">
-            </div>
-            <div class="produto">
-                <img src="https://tayco.com.br/app/uploads/2021/09/produto-linha-t.png" alt="linhaT" class="image-produto">
-                <h2 class="nome-produto">Linha ST</h2>
-                <article>A tradicional Linha T tem as melhores avaliações e recomendações da nossa empresa.</article>
-                <input type="button" value="Conheça Melhor ->" class="button-produto">
-            </div>
-            <div class="produto">
-                <img src="https://tayco.com.br/app/uploads/2021/09/produto-linha-t.png" alt="linhaT" class="image-produto">
-                <h2 class="nome-produto">Linha Hospitalar</h2>
-                <article>A tradicional Linha T tem as melhores avaliações e recomendações da nossa empresa.</article>
-                <input type="button" value="Conheça Melhor ->" class="button-produto">
-            </div>
-        </div>
-    </div>
-    <script src="./script.js"></script>
-</body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./header.css" />
+		<link rel="stylesheet" href="./footer.css">
+        <link rel="stylesheet" href="./body.css" />
+		<link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+		<title>SL Proteção Respiratória</title>
+	</head>
+	<body>
+		<header class="header-page">
+			<div class="title-header"><a href="./index.html" >SLPR</a></div>
+			<div class="spans-header">
+				<span><a href="http://">Quem Somos</a></span>
+				<span><a href="http://">Nossos Produtos</a></span>
+				<span><a href="http://">Contato</a></span>
+			</div>
+		</header>
+		<div class="image-body"></div>
+		<div class="produtos-body">
+			<h1>Conheça Nossos Produtos</h1>
+			<div class="produtos-area">
+				<div class="produto">
+					<img
+						src="https://tayco.com.br/app/uploads/2021/09/produto-linha-t.png"
+						alt="linhaT"
+						class="image-produto" />
+					<h2 class="nome-produto">Linha T</h2>
+					<article>
+						A tradicional Linha T tem as melhores avaliações e recomendações da nossa empresa.
+					</article>
+					<button type="button" value="CONHEÇA MELHOR ->" class="button-produto">
+						CONHEÇA MELHOR <i class="bx bx-right-arrow-circle"></i>
+					</button>
+				</div>
+				<div class="produto">
+					<img
+						src="https://tayco.com.br/app/uploads/2021/09/produto-linha-t.png"
+						alt="linhaT"
+						class="image-produto" />
+					<h2 class="nome-produto">Linha ST</h2>
+					<article>
+						A tradicional Linha T tem as melhores avaliações e recomendações da nossa empresa.
+					</article>
+					<button type="button" value="CONHEÇA MELHOR ->" class="button-produto">
+						CONHEÇA MELHOR <i class="bx bx-right-arrow-circle"></i>
+					</button>
+				</div>
+				<div class="produto">
+					<img
+						src="https://tayco.com.br/app/uploads/2021/09/produto-linha-t.png"
+						alt="linhaT"
+						class="image-produto" />
+					<h2 class="nome-produto">Linha Hospitalar</h2>
+					<article>
+						A tradicional Linha T tem as melhores avaliações e recomendações da nossa empresa.
+					</article>
+					<button type="button" value="CONHEÇA MELHOR ->" class="button-produto">
+						CONHEÇA MELHOR <i class="bx bx-right-arrow-circle"></i>
+					</button>
+				</div>
+			</div>
+			<button class="button-todos">VER TODOS</button>
+		</div>
+		<form action="exemplo@mail.com" class="formulario">
+			<div class="infos-form">
+                <h1>Solicite um Orçamento</h1>
+				<label>
+					<span> Nome</span> </br>
+					<input type="text" name="nome" required />
+				</label>
+
+				<label>
+					<span>E-mail</span></br>
+					<input type="text" name="email" class="fade_8S" required/>
+				</label>
+				<label>
+					<span>Telefone</span></br>
+					<input type="number" class="telefone" required />
+				</label>
+                
+                <label>
+					<span>Empresa</span></br>
+					<input type="text" class="empresa" required/>
+				</label>
+                <label>
+					<span>Estado</span></br>
+					<select class="estado" required >
+							<option value="AC">Acre</option>
+							<option value="AL">Alagoas</option>
+							<option value="AP">Amapá</option>
+							<option value="AM">Amazonas</option>
+							<option value="BA">Bahia</option>
+							<option value="CE">Ceará</option>
+							<option value="DF">Distrito Federal</option>
+							<option value="ES">Espírito Santo</option>
+							<option value="GO">Goiás</option>
+							<option value="MA">Maranhão</option>
+							<option value="MT">Mato Grosso</option>
+							<option value="MS">Mato Grosso do Sul</option>
+							<option value="MG">Minas Gerais</option>
+							<option value="PA">Pará</option>
+							<option value="PB">Paraíba</option>
+							<option value="PR">Paraná</option>
+							<option value="PE">Pernambuco</option>
+							<option value="PI">Piauí</option>
+							<option value="RJ">Rio de Janeiro</option>
+							<option value="RN">Rio Grande do Norte</option>
+							<option value="RS">Rio Grande do Sul</option>
+							<option value="RO">Rondônia</option>
+							<option value="RR">Roraima</option>
+							<option value="SC">Santa Catarina</option>
+							<option value="SP">São Paulo</option>
+							<option value="SE">Sergipe</option>
+							<option value="TO">Tocantins</option>
+							<option value="EX">Estrangeiro</option>
+					</select>
+				</label>
+                <label>
+					<span>Assunto</span></br>
+					<input type="text" class="" required />
+				</label>
+                <label>
+                    <span>Mensagem</span></br>
+                    <textarea class="mensagem" rows="3" required></textarea>
+                </label>
+			</div>
+			<div class="buttons-actions">
+				<button type="reset" >Limpar <i class='bx bx-trash' ></i></button>
+				<button type="submit" >Enviar <i class="bx bx-right-arrow-circle"></i></button>
+			</div>
+		</form>
+
+        <footer class="rodape">
+                <div class="descricao">
+                    <h1>SLPR</h1>
+                    <article>
+                        Exemplo: A empresa SL Proteção Respiratória preza por qualidade e profissionalismo no ramo de proteção respiratória, 
+                        com muitos anos de experiência construímos um nome de respeito no ramo de fabricação de proteções respiratórias. 
+                    </article>
+                </div>
+                <div class="links">
+                    <span><a href="http://">Quem Somos</a></span></br>
+					<span><a href="http://">Nossos Produtos</a></span></br>
+					<span><a href="http://">Contato</a></span></br>
+                </div>
+                <div class="infos">
+                    <div class="endereco">
+                        <h3>Endereço</h3>
+                        <span>
+                            Rua Marginal Filho, 257 Jardim Felícia
+                        </span>
+                        <span>CEP: 13.000-000</span></br>
+                        <span>Indaiatuba/SP</span></br>
+                        <span>CNPJ: 50.256.256/0001-9</span></br>
+                    </div>
+                    <div class="telefone-rodape">
+                        <h3>Telefone</h3>
+                        <span>(11) 4856-4856</span></br>
+                        <span>(19) 994589-4589</span></br>
+                    </div>
+                    <div class="email-rodape">
+                        <h3>E-mail</h3>
+                        <span>comercial@mail.com.br</span></br>
+                        <span>atendimento@mail.com.br</span></br>
+                    </div>
+                </div>
+        </footer>
+		<script src="./script.js"></script>
+	</body>
 </html>

@@ -1,0 +1,45 @@
+.rodape {
+	min-height: 500px;
+	max-height: 500px;
+	width: 100%;
+	background-color: #1c1833;
+	padding: 100px;
+	display: flex;
+	justify-content: space-evenly;
+	font-size: 15px;
+}
+.descricao {
+	width: 350px;
+	height: 150px;
+	color: white;
+	font-size: 15px;
+}
+.descricao h1 {
+	font-size: 40px;
+}
+
+.links {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+	margin-top: 20px;
+}
+.links span > a {
+	color: white;
+	text-decoration: none;
+	font-size: 15px;
+	font-weight: bold;
+	cursor: pointer;
+}
+.links span > a:hover {
+	text-decoration: underline;
+}
+
+.infos {
+	display: flex;
+	flex-direction: column;
+	gap: 25px;
+	color: white;
+	width: 250px;
+	text-align: justify;
+}
